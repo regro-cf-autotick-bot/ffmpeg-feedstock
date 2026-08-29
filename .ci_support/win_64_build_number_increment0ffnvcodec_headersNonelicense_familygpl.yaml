@@ -41,7 +41,7 @@ librsvg:
 libwebp:
 - '1'
 libxml2_devel:
-- '2.14'
+- '2.15'
 license_family:
 - gpl
 openh264:
