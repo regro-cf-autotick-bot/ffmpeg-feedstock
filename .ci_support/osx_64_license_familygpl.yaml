@@ -46,8 +46,6 @@ libjxl:
 - '0.12'
 liblzma_devel:
 - '5'
-libopenvino_dev:
-- 2026.3.0
 libplacebo:
 - '7.360'
 librsvg:
@@ -55,7 +53,7 @@ librsvg:
 libwebp:
 - '1'
 libxml2_devel:
-- '2.14'
+- '2.15'
 license_family:
 - gpl
 macos_machine:
