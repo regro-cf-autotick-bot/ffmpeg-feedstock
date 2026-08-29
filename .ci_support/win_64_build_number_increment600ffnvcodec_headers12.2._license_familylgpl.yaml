@@ -16,8 +16,6 @@ cuda_version_for_ffnvcodec:
 - '12.5'
 cxx_compiler:
 - vs2022
-dav1d:
-- 1.2.1
 expat:
 - '2'
 ffmpeg:
