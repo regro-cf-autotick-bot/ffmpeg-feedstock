@@ -11,7 +11,7 @@ bzip2:
 c_compiler:
 - clang
 c_compiler_version:
-- '19'
+- '21'
 c_stdlib:
 - macosx_deployment_target
 c_stdlib_version:
@@ -23,13 +23,13 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '19'
+- '21'
 dav1d:
 - 1.2.1
 expat:
 - '2'
 ffmpeg:
-- '8'
+- '9'
 ffnvcodec_headers:
 - None
 fontconfig:
@@ -46,8 +46,6 @@ libjxl:
 - '0.12'
 liblzma_devel:
 - '5'
-libopenvino_dev:
-- 2026.3.0
 libplacebo:
 - '7.360'
 librsvg:
@@ -55,7 +53,7 @@ librsvg:
 libwebp:
 - '1'
 libxml2_devel:
-- '2.14'
+- '2.15'
 license_family:
 - lgpl
 macos_machine:
