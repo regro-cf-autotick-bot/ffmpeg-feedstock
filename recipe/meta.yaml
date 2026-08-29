@@ -104,7 +104,10 @@ requirements:
     - libopus
     - lame
     - libass             # [not win]
-    - libopenvino-dev    # [not win and not ppc64le]
+    # OpenVINO discontinued macOS x86 support as of the 2026.1 release, so
+    # libopenvino is no longer available for osx-64.
+    # https://github.com/openvinotoolkit/openvino/releases/tag/2026.1.0
+    - libopenvino-dev    # [not win and not ppc64le and not (osx and x86_64)]
     - dav1d
     - liblzma-devel
     - sdl2

@@ -139,7 +139,10 @@ elif [[ "${target_platform}" == osx-* ]]; then
 fi
 
 # enable OpenVINO to optimize AI tasks of avfilter component
-if [[ "${target_platform}" == linux-ppc64le ]] || [[ "${target_platform}" == win-64 ]]; then
+# OpenVINO discontinued macOS x86 support as of the 2026.1 release, so
+# libopenvino is no longer available for osx-64.
+# https://github.com/openvinotoolkit/openvino/releases/tag/2026.1.0
+if [[ "${target_platform}" == linux-ppc64le ]] || [[ "${target_platform}" == win-64 ]] || [[ "${target_platform}" == osx-64 ]]; then
     extra_args="${extra_args} --disable-libopenvino"
 else
     extra_args="${extra_args} --enable-libopenvino"
