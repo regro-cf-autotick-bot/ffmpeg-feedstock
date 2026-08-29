@@ -21,7 +21,7 @@ dav1d:
 expat:
 - '2'
 ffmpeg:
-- '8'
+- '9'
 ffnvcodec_headers:
 - 12.2.*
 fontconfig:
@@ -41,7 +41,7 @@ librsvg:
 libwebp:
 - '1'
 libxml2_devel:
-- '2.14'
+- '2.15'
 license_family:
 - lgpl
 openh264:
