@@ -25,7 +25,7 @@ cxx_compiler:
 cxx_compiler_version:
 - '21'
 dav1d:
-- 1.2.1
+- 1.5.4
 expat:
 - '2'
 ffmpeg:
